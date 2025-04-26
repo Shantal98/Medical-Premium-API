@@ -12,7 +12,7 @@ app = Flask(__name__)
 # --- Load Dataset ---
 @st.cache_data
 def load_data():
-    url = 'https://raw.githubusercontent.com/Shantal98/Medical-Premium-Prediction/main/Medicalpremium.csv'
+    url = 'https://github.com/Shantal98/Medical-Premium-API/blob/main/Medicalpremium.csv'
     df = pd.read_csv(url)
     
     # Calculate BMI
